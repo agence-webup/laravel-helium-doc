@@ -34,22 +34,46 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Installation',
-        link: '/installation/',
+        text: 'Getting started',
+        link: '/getting-started/requirements',
       },
-      {
-        text: 'Configuration',
-        link: '/config/',
-      },
-      {
-        text: 'CRUD',
-        link: '/crud/'
-      },
-      {
-        text: 'Modules',
-        link: '/modules/'
-      }
     ],
+    sidebar: [
+      {
+        title: 'Getting started',   // required
+        collapsable: false, // optional, defaults to true
+        children: [
+          ['/getting-started/requirements','Requirements'],
+          ['/getting-started/installation','Installation'],
+          ['/getting-started/configuration','Configuration'],
+        ]
+      },
+      {
+        title: 'Usage',
+        collapsable: false, // optional, defaults to true
+        children: [ 
+          ['/usage/breadcrumb','Breadcrumb'],
+          ['/usage/header','Header'],
+          ['/usage/box','Box'],
+         ]
+      },
+      {
+        title: 'CRUD Generator',
+        collapsable: false, // optional, defaults to true
+        children: [ 
+          ['/crud/','Usage'],
+         ]
+      },
+      {
+        title: 'Modules',
+        collapsable: false, // optional, defaults to true
+        children: [ 
+          ['/modules/redirections','Redirections'],
+          ['/modules/settings','Settings'],
+          ['/modules/contact','Contact'],
+         ]
+      }
+    ]
   },
 
   /**

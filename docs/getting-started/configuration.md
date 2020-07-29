@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # Configuration
 
 Once you have publish laravel-helium files, you should have a new config file `config/helium.php`
@@ -50,6 +46,10 @@ For both of single & dropdown menu :
 ```
 
 ## Shortcuts
+
+Shortcuts allow users to quickly access frequently used pages
+
+Nested arrays can be used for spliting differents
 
 ```php
 "shortcuts" => [

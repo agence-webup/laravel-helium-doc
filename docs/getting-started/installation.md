@@ -1,7 +1,5 @@
 # Installation
 
-This package is a set of module to build a backend.
-
 ## Package
 
 ```bash
