@@ -51,23 +51,18 @@ Shortcuts allow users to quickly access frequently used pages
 
 Nested arrays can be used for spliting differents
 
+Links can be either a laravel route name or a full url
+
+
 ```php
 "shortcuts" => [
     [
-        "Voir la dernière facture" => "admin.home",
-        "Voir la première facture" => "admin.home"
+        "Home" => "admin.home",
+        "Helium" => "https://github.com/agence-webup/helium"
     ],
     [
-        "Voir la liste des clients" => "admin.home",
-        "Ajouter un client" => "admin.home"
+        "Laravel Helium" => "https://github.com/agence-webup/laravel-helium",
+        "Agence Webup" => "https://github.com/agence-webup"
     ]
 ],
 ```
-
-## Modules
-
-[contact](https://github.com/agence-webup/helium)
-
-[setting](https://github.com/agence-webup/helium)
-
-[redirection](https://github.com/agence-webup/helium)

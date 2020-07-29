@@ -6,7 +6,7 @@
 $ composer require webup/laravel-helium
 ```
 
-## Js Dependencies
+## JS Dependencies
 
 - [helium](https://github.com/agence-webup/helium) `npm i agence-webup/helium`
 

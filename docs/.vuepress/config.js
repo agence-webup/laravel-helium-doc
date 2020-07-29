@@ -27,7 +27,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'https://github.com/agence-webup/laravel-helium',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
@@ -40,8 +40,8 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Getting started',   // required
-        collapsable: false, // optional, defaults to true
+        title: 'Getting started',
+        collapsable: false,
         children: [
           ['/getting-started/requirements','Requirements'],
           ['/getting-started/installation','Installation'],
@@ -50,23 +50,25 @@ module.exports = {
       },
       {
         title: 'Usage',
-        collapsable: false, // optional, defaults to true
+        collapsable: false,
         children: [ 
+          ['/usage/facades&aliases','Facades & Aliases'],
           ['/usage/breadcrumb','Breadcrumb'],
           ['/usage/header','Header'],
-          ['/usage/box','Box'],
+          ['/usage/flash','Flash'],
+          ['/usage/layout','Layout'],
          ]
       },
       {
         title: 'CRUD Generator',
-        collapsable: false, // optional, defaults to true
+        collapsable: false,
         children: [ 
           ['/crud/','Usage'],
          ]
       },
       {
         title: 'Modules',
-        collapsable: false, // optional, defaults to true
+        collapsable: false,
         children: [ 
           ['/modules/redirections','Redirections'],
           ['/modules/settings','Settings'],
