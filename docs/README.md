@@ -4,5 +4,5 @@ heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: 
 actionText: Quick Start →
 actionLink: /installation/
-footer: Made by Agence webup with ❤️
+footer: Made by Agence Webup with ❤️
 ---
