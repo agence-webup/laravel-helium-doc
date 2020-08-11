@@ -2,7 +2,19 @@
 
 Once you have publish laravel-helium files, you should have a new config file `config/helium.php`
 
+
+![Preview](../public/img/configuration.png)
+
+1) [Browser tab title](#browser-tab-title)
+2) [Top left title](#top-left-title)
+3) [Single Menu](#menu)
+4) [Dropdown Menu](#menu)
+5) *Coming soon*
+6) [Shortcuts](#shortcuts)
+
+
 ## Browser tab title
+
 
 ```php
 "title" => "Administration",
@@ -36,7 +48,7 @@ For both of single & dropdown menu :
 
 ```php
 "Repos" => [
-    "current_route" => "admin.home",
+    "current_route" => "admin.repos",
     "icon" => "github",
     "links" => [
         "Agence Webup" => "https://github.com/agence-webup",

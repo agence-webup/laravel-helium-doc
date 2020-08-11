@@ -57,3 +57,31 @@ Forbidden:
 - style (will be ignored)
 
 
+## Example
+
+```html
+<x-helium-box id="test">
+  <x-slot name="header">
+    <x-helium-box-header title="Header title" :actions="[
+        'Item 1' => [
+            'route' => 'admin.home',
+            'danger' => true
+        ],
+        'Item 2' => 'https://github.com/agence-webup/laravel-helium',
+    ]" />
+  </x-slot>
+
+  Content
+
+  <x-slot name="footer">
+    Footer
+  </x-slot>
+</x-helium-box>
+```
+
+Render
+
+![Preview](../public/img/layout.png)
+
+
+

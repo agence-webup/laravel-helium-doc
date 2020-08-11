@@ -1,5 +1,13 @@
 # Flash
 
+![Preview](../public/img/flash.png)
+
+1) [Success](#success)
+2) [Error](#error)
+3) [Warning](#warning)
+4) [Info](#info)
+
+
 ## success
 ```php
 /**
