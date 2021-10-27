@@ -27,18 +27,67 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'https://github.com/agence-webup/laravel-helium',
+    //repo: 'https://github.com/agence-webup/laravel-helium',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    //isplayAllHeaders: true, // Default: false
     nav: [
       {
         text: 'Getting started',
         link: '/getting-started/requirements',
       },
+      {
+        text: 'Usage',
+        link: '/usage/facades&aliases',
+      },
+      {
+        text: 'Crud generator',
+        link: '/crud/',
+      },
+      {
+        text: 'Modules',
+        link: '/modules/redirections',
+      },
+      {
+        text: 'UI best practices',
+        link: '/interface/tables',
+      }
     ],
-    sidebar: [
+
+    sidebar:
+      {
+        '/getting-started/': [
+            'requirements',
+            'installation',
+            'configuration',
+        ],
+        '/usage/': [
+            'facades&aliases',
+            'breadcrumb',
+            'header',
+            'flash',
+            'layout'
+        ],
+        '/crud/': [
+          '',
+        ],
+        '/modules/': [
+          'redirections',
+          'settings',
+          'contact'
+      ],
+        '/interface/': [
+          'tables',
+          'forms'
+        ],
+        '/': [
+          ''
+        ]
+      }
+    
+    /* sidebar: [
       {
         title: 'Getting started',
         collapsable: false,
@@ -75,7 +124,7 @@ module.exports = {
           ['/modules/contact','Contact'],
          ]
       }
-    ]
+    ] */
   },
 
   /**
