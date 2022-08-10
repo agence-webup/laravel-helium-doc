@@ -6,6 +6,7 @@
 2) [Save button](#save)
 3) [Add button](#add)
 4) [Contextual actions](#contextual)
+5) [Custom button](#custom)
 
 
 
@@ -137,3 +138,28 @@ Reserved :
 Forbidden:
 - style (will be ignored)
 
+
+
+## custom
+```php
+/**
+ * Set custom action
+ *
+ * @param string $label Custom button label
+ * @param array $attrs html attributes
+ * @param string $icon Feather icon name
+ *
+ * @return \Webup\LaravelHelium\Core\Classes\HeliumHeader
+ */
+public function custom(string $label, array $attrs = [], string $icon = null);
+```
+### Example
+```php
+Helium::header()->custom(
+    'Autre action',
+    [
+        'class' => 'btn',
+    ],
+    'plus',
+);
+```
